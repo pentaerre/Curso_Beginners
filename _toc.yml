@@ -1,0 +1,7 @@
+file: README_v2.md
+sections:
+- file: 0_Actividad_Final_del_curso_basico/01_SF_Salaries_Exercise
+- file: 0_Actividad_Inicial_de_Curso_Basico/0_1_intro_to_python_es
+- file: 0_Ejercicios_Estructuras_basicas/Ejercicios_de_estructuras_basicas_con_solucion
+sections:
+- file: 1_Dataset_titanic/Introduccion_a_pandas
