@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>0_1 intro_to_python_es</title>
+<title>Introduccion_a_pandas</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13083,103 +13083,23 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
-<div class="toc"><ul class="toc-item"><li><span><a href="#¡Empecemos!" data-toc-modified-id="¡Empecemos!-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>¡Empecemos!</a></span></li><li><span><a href="#Tipos-de-datos-básicos:-números,-booleanos-y-cadenas" data-toc-modified-id="Tipos-de-datos-básicos:-números,-booleanos-y-cadenas-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Tipos de datos básicos: números, booleanos y cadenas</a></span><ul class="toc-item"><li><span><a href="#Numérico" data-toc-modified-id="Numérico-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Numérico</a></span><ul class="toc-item"><li><span><a href="#Operadores-matemáticos:-+,--,-\-,-/,-*" data-toc-modified-id="Operadores-matemáticos:-+,--,-\-,-/,-*-2.1.1"><span class="toc-item-num">2.1.1&nbsp;&nbsp;</span>Operadores matemáticos: +, -, \ <em>, /,</em> *</a></span></li><li><span><a href="#Operadores-matemáticos-abreviados" data-toc-modified-id="Operadores-matemáticos-abreviados-2.1.2"><span class="toc-item-num">2.1.2&nbsp;&nbsp;</span>Operadores matemáticos abreviados</a></span></li></ul></li><li><span><a href="#Booleanos-y-operadores-lógicos" data-toc-modified-id="Booleanos-y-operadores-lógicos-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Booleanos y operadores lógicos</a></span><ul class="toc-item"><li><span><a href="#Operadores-logicos" data-toc-modified-id="Operadores-logicos-2.2.1"><span class="toc-item-num">2.2.1&nbsp;&nbsp;</span>Operadores logicos</a></span></li></ul></li><li><span><a href="#1.3-Strings-(cadenas-de-caracteres)" data-toc-modified-id="1.3-Strings-(cadenas-de-caracteres)-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>1.3 Strings (cadenas de caracteres)</a></span><ul class="toc-item"><li><span><a href="#Métodos-de-strings" data-toc-modified-id="Métodos-de-strings-2.3.1"><span class="toc-item-num">2.3.1&nbsp;&nbsp;</span>Métodos de strings</a></span></li></ul></li></ul></li><li><span><a href="#Tipos-de-datos-de-contenedor" data-toc-modified-id="Tipos-de-datos-de-contenedor-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Tipos de datos de contenedor</a></span><ul class="toc-item"><li><span><a href="#Listas" data-toc-modified-id="Listas-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Listas</a></span></li><li><span><a href="#Tuplas" data-toc-modified-id="Tuplas-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Tuplas</a></span></li><li><span><a href="#Diccionarios" data-toc-modified-id="Diccionarios-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Diccionarios</a></span></li><li><span><a href="#Conjuntos" data-toc-modified-id="Conjuntos-3.4"><span class="toc-item-num">3.4&nbsp;&nbsp;</span>Conjuntos</a></span></li></ul></li><li><span><a href="#3.-Funciones" data-toc-modified-id="3.-Funciones-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>3. Funciones</a></span></li><li><span><a href="#Flujo-de-control" data-toc-modified-id="Flujo-de-control-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Flujo de control</a></span><ul class="toc-item"><li><span><a href="#If/Else" data-toc-modified-id="If/Else-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>If/Else</a></span></li><li><span><a href="#Bucles" data-toc-modified-id="Bucles-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Bucles</a></span><ul class="toc-item"><li><span><a href="#bucles-'while'" data-toc-modified-id="bucles-'while'-5.2.1"><span class="toc-item-num">5.2.1&nbsp;&nbsp;</span>bucles 'while'</a></span></li><li><span><a href="#bucles-'for'" data-toc-modified-id="bucles-'for'-5.2.2"><span class="toc-item-num">5.2.2&nbsp;&nbsp;</span>bucles 'for'</a></span></li><li><span><a href="#Lista-/-comprensión-dict" data-toc-modified-id="Lista-/-comprensión-dict-5.2.3"><span class="toc-item-num">5.2.3&nbsp;&nbsp;</span>Lista / comprensión dict</a></span></li></ul></li></ul></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Introduccion-a-pandas.-Titanic-Dataset" data-toc-modified-id="Introduccion-a-pandas.-Titanic-Dataset-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduccion a pandas. Titanic Dataset</a></span><ul class="toc-item"><li><span><a href="#Qué-es-pandas-y-porqué-es-tan-interesante-aprenderlo" data-toc-modified-id="Qué-es-pandas-y-porqué-es-tan-interesante-aprenderlo-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Qué es pandas y porqué es tan interesante aprenderlo</a></span></li></ul></li><li><span><a href="#Empezamos" data-toc-modified-id="Empezamos-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Empezamos</a></span><ul class="toc-item"><li><span><a href="#Cargamos-la-libreria-de-pandas" data-toc-modified-id="Cargamos-la-libreria-de-pandas-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Cargamos la libreria de pandas</a></span></li><li><span><a href="#Cargamos-el-CSV-en-pandas" data-toc-modified-id="Cargamos-el-CSV-en-pandas-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Cargamos el CSV en pandas</a></span></li><li><span><a href="#Obteniendo-informacion-sobre-el-dataset" data-toc-modified-id="Obteniendo-informacion-sobre-el-dataset-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Obteniendo informacion sobre el dataset</a></span></li><li><span><a href="#Accediendo-a-los-datos" data-toc-modified-id="Accediendo-a-los-datos-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Accediendo a los datos</a></span></li><li><span><a href="#Sacando-informacion-del-dataset" data-toc-modified-id="Sacando-informacion-del-dataset-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Sacando informacion del dataset</a></span></li></ul></li><li><span><a href="#(opcional)-Para-ampliar-conocimientos" data-toc-modified-id="(opcional)-Para-ampliar-conocimientos-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>(opcional) Para ampliar conocimientos</a></span></li></ul></div>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Tenga en cuenta que estamos usando Python 3.7
-(<strong>NO</strong> Python 2! Python 2 está muerto)</p>
-
+<h2 id="Introduccion-a-pandas.-Titanic-Dataset">Introduccion a pandas. Titanic Dataset<a class="anchor-link" href="#Introduccion-a-pandas.-Titanic-Dataset">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Clicar aquí para abrir el cuaderno en google Colab. Toca sin miedo, te prometemos que no se romperá.</p>
-<p><a href="https://colab.research.google.com/github/mrBronnWow/Curso_Beginners/blob/main/0_Actividad_Inicial_de_Curso_Basico/0_1%20intro_to_python_es.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s make sure we are using Python 3</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">version</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>3.7.6 (default, Jan  8 2020, 20:23:39) [MSC v.1916 64 bit (AMD64)]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#161;Empecemos!">&#161;Empecemos!<a class="anchor-link" href="#&#161;Empecemos!">&#182;</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello AiSaturdays!&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello AiSaturdays!
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><code>print</code> es una función incorporada. Lo usaremos varias veces.</p>
+<p>Clicar aquí para abrir el cuaderno en google Colab. 
+<a href="https://colab.research.google.com/github/mrBronnWow/Curso_Beginners/blob/main/1_Dataset_titanic/Introduccion_a_pandas.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
+<p>Toca sin miedo, te aseguramos que no se romperá.</p>
 
 </div>
 </div>
@@ -13187,13 +13107,15 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Tipos-de-datos-b&#225;sicos:-n&#250;meros,-booleanos-y-cadenas">Tipos de datos b&#225;sicos: n&#250;meros, booleanos y cadenas<a class="anchor-link" href="#Tipos-de-datos-b&#225;sicos:-n&#250;meros,-booleanos-y-cadenas">&#182;</a></h1><p>Los tipos de datos básicos en python3 son:
-<a href="https://realpython.com/python-data-types/">https://realpython.com/python-data-types/</a></p>
-<ul>
-<li>Numérico: enteros, flotantes y números complejos</li>
-<li>Texto: cadenas</li>
-<li>Lógica: booleana</li>
-</ul>
+<h3 id="Qu&#233;-es-pandas-y-porqu&#233;-es-tan-interesante-aprenderlo">Qu&#233; es pandas y porqu&#233; es tan interesante aprenderlo<a class="anchor-link" href="#Qu&#233;-es-pandas-y-porqu&#233;-es-tan-interesante-aprenderlo">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>pandas</code> es una biblioteca de software escrita como extensión de NumPy para manipulación y análisis de datos para el lenguaje de programación Python. En particular, ofrece estructuras de datos y operaciones para manipular tablas numéricas y series temporales.</p>
+<p>Dicho de un modo más sencillo, pandas nos permite realizar operaciones sobre tablas, como hariamos en Excel. <strong>La gran ventaja, es que puede manejar volúmenes de datos mucho más grande que Excel, y de forma más rápida.</strong></p>
 
 </div>
 </div>
@@ -13201,615 +13123,29 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Num&#233;rico">Num&#233;rico<a class="anchor-link" href="#Num&#233;rico">&#182;</a></h2><p>Nota:</p>
-<ul>
-<li>Use la función <code>type ()</code> para obtener el tipo de una variable</li>
-<li>Los números pueden ser enteros ('int'), como 3, 5 y 3049</li>
-<li>Los números decimales son flotantes ('float'), como 2.5, 3.1 y 2.34938493</li>
-<li>Los números imaginarios se definen con la letra <code>j</code></li>
-</ul>
+<p><img src="https://camo.githubusercontent.com/e5efd9b8f2106722c85415f104a352232a3a9437d765778aca491a2c2a7d5d6c/68747470733a2f2f6465762e70616e6461732e696f2f7374617469632f696d672f70616e6461732e737667" alt="link text"></p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a_int</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">a_int</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a_int</span><span class="p">)</span>
-
-<span class="n">a_float</span> <span class="o">=</span> <span class="mf">2.3</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">a_float</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a_float</span><span class="p">)</span>
-
-<span class="n">a_img</span> <span class="o">=</span> <span class="mi">2</span><span class="n">j</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">a_img</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a_img</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>&lt;class &#39;int&#39;&gt;
-5
-&lt;class &#39;float&#39;&gt;
-2.3
-&lt;class &#39;complex&#39;&gt;
-2j
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Operadores-matem&#225;ticos:-+,--,-\-,-/,-*">Operadores matem&#225;ticos: +, -, \ <em>, /,</em> *<a class="anchor-link" href="#Operadores-matem&#225;ticos:-+,--,-\-,-/,-*">&#182;</a></h3><p>Los operadores matemáticos le permiten realizar operaciones matemáticas.
-Nota:<code>**</code> es el operador de exponenciación</p>
-
+<h2 id="Empezamos">Empezamos<a class="anchor-link" href="#Empezamos">&#182;</a></h2>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="n">b</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="mi">1</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
-<span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="o">-</span> <span class="mi">1</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
-<span class="n">d</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="mi">2</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
-<span class="n">e</span> <span class="o">=</span> <span class="n">a</span> <span class="o">/</span> <span class="mi">2</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
-
-<span class="n">f</span> <span class="o">=</span> <span class="n">a</span> <span class="o">**</span> <span class="mi">2</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>3
-1
-4
-1.0
-4
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Operadores-matem&#225;ticos-abreviados">Operadores matem&#225;ticos abreviados<a class="anchor-link" href="#Operadores-matem&#225;ticos-abreviados">&#182;</a></h3><p><code>a + = 1</code> es la abreviatura de<code>a = a + 1</code></p>
-
+<h3 id="Cargamos-la-libreria-de-pandas">Cargamos la libreria de pandas<a class="anchor-link" href="#Cargamos-la-libreria-de-pandas">&#182;</a></h3>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="n">a</span> <span class="o">+=</span> <span class="mi">1</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-<span class="n">a</span> <span class="o">*=</span> <span class="mi">2</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-<span class="n">a</span> <span class="o">/=</span> <span class="mi">4</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-<span class="n">a</span> <span class="o">-=</span> <span class="mi">2</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>6
-12
-3.0
-1.0
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<div class="alert alert-block alert-danger">
-<b>Warning :</b> `+=` it's not the same as `=+`. 
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">a</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>1.0
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">a</span> <span class="o">+=</span> <span class="mi">4</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>5
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">a</span> <span class="o">=+</span> <span class="mi">4</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>4
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Booleanos-y-operadores-l&#243;gicos">Booleanos y operadores l&#243;gicos<a class="anchor-link" href="#Booleanos-y-operadores-l&#243;gicos">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">im_true</span> <span class="o">=</span> <span class="kc">True</span>
-<span class="n">im_false</span> <span class="o">=</span> <span class="kc">False</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">im_true</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">im_true</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>&lt;class &#39;bool&#39;&gt;
-True
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Operadores-logicos">Operadores logicos<a class="anchor-link" href="#Operadores-logicos">&#182;</a></h3><p>Los operadores lógicos (<code>==</code> y <code>! =</code>) Le permiten comparar los valores de las variables en el lado izquierdo y derecho.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">im_true</span> <span class="o">==</span> <span class="n">im_false</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">im_true</span> <span class="o">!=</span> <span class="n">im_false</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>False
-True
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The <code>and</code> operator will return <code>True</code> only if both elements are <code>True</code>.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">im_true</span> <span class="ow">and</span> <span class="n">im_false</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>False
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The <code>or</code> operator will return <code>True</code> if  any of the variables are <code>True</code>.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">im_true</span> <span class="ow">or</span> <span class="n">im_false</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>True
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">im_true</span> <span class="o">+</span> <span class="n">im_true</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[37]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>2</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<div class="alert alert-block alert-danger">
-<b>Warning :</b> Boolean TRue a menudo se trata como entero 1 y False como 0. Uso de operaciones matemáticas, por ejemplo, `+`:
-    Verdadero + Verdadero será 2.
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kc">True</span> <span class="o">+</span> <span class="kc">True</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[43]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>2</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kc">True</span> <span class="ow">and</span> <span class="kc">True</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[44]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>True</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kc">True</span> <span class="o">+</span> <span class="kc">False</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[46]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>1</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kc">True</span> <span class="ow">and</span> <span class="kc">False</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[47]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>False</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.3-Strings-(cadenas-de-caracteres)">1.3 Strings (cadenas de caracteres)<a class="anchor-link" href="#1.3-Strings-(cadenas-de-caracteres)">&#182;</a></h2><p>Puede usar comillas simples o dobles para cadenas.</p>
+<p>Para empezar a utilizar pandas, lo primero que debemos hacer es cargar la librería</p>
 
 </div>
 </div>
@@ -13819,30 +13155,10 @@ True
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_string</span> <span class="o">=</span> <span class="s1">&#39;Altran&#39;</span>
-<span class="n">my_other_string</span> <span class="o">=</span> <span class="s2">&quot;Part of Capgemini&quot;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">my_string</span><span class="p">,</span> <span class="n">my_other_string</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Altran Part of Capgemini
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -13850,18 +13166,55 @@ True
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="M&#233;todos-de-strings">M&#233;todos de strings<a class="anchor-link" href="#M&#233;todos-de-strings">&#182;</a></h3><p>Cuerdas de concatenación:</p>
+<p>Truco, para ejecutar cada celda de código puedes pulsar <code>Shift+Enter</code>.</p>
+
+<pre><code>import pandas</code></pre>
+<p>carga le dice al notebook que vamos a utilizar esta librería, y con</p>
+
+<pre><code>as pd</code></pre>
+<p>le indicamos un alias, un mote, para poder llamar a la librería como <code>pd</code> , y de esta forma que el código quede más limpio. Podriamos haberla llamada <code>panditas</code>, pero por convención la llamamos <code>pd</code>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Cargamos-el-CSV-en-pandas">Cargamos el CSV en pandas<a class="anchor-link" href="#Cargamos-el-CSV-en-pandas">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Hemos elegido el mítico dataset del Titanic. Contiene información sobre los pasajeros del naufragado barco. Este dataset lo hemos escogido por uno de loa tradicionales para empezar en el mundo del Machine Learning o ML. Pero de momento nos centraremos en hacer un <em>Exploratory Data Analysis</em> o EDA.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://cdn.britannica.com/72/153172-050-EB2F2D95/Titanic.jpg" alt="link text"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Vamos a cargar el archivo <code>test.csv</code>. Para ello debemos cargar este archivo en Google Colab, y lo haremos de la siguiente forma.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">another_string</span> <span class="o">=</span> <span class="s1">&#39;Hello&#39;</span> <span class="o">+</span> <span class="n">my_string</span> <span class="o">+</span> <span class="n">my_other_string</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">another_string</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;https://raw.githubusercontent.com/mrBronnWow/Curso_Beginners/main/1_Dataset_titanic/train.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -13874,13 +13227,124 @@ True
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+    <div class="prompt output_prompt">Out[2]:</div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>HelloAltranPart of Capgemini
-</pre>
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PassengerId</th>
+      <th>Survived</th>
+      <th>Pclass</th>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>Age</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+      <th>Ticket</th>
+      <th>Fare</th>
+      <th>Cabin</th>
+      <th>Embarked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Braund, Mr. Owen Harris</td>
+      <td>male</td>
+      <td>22.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>A/5 21171</td>
+      <td>7.2500</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Cumings, Mrs. John Bradley (Florence Briggs Th...</td>
+      <td>female</td>
+      <td>38.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>PC 17599</td>
+      <td>71.2833</td>
+      <td>C85</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>1</td>
+      <td>3</td>
+      <td>Heikkinen, Miss. Laina</td>
+      <td>female</td>
+      <td>26.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>STON/O2. 3101282</td>
+      <td>7.9250</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Futrelle, Mrs. Jacques Heath (Lily May Peel)</td>
+      <td>female</td>
+      <td>35.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>113803</td>
+      <td>53.1000</td>
+      <td>C123</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Allen, Mr. William Henry</td>
+      <td>male</td>
+      <td>35.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>373450</td>
+      <td>8.0500</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+  </tbody>
+</table>
 </div>
+</div>
+
 </div>
 
 </div>
@@ -13890,102 +13354,22 @@ True
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<div class="alert alert-block alert-warning">
-<b> Cuidado con los espacios. </b>
+<p>Esta linea lee una URL de un repositorio en Github, pero no te preocupes por ello ahora. Si tienes curiosidad por saberqué significa cada columna, puedes consultar la web de kaggle <a href="https://www.kaggle.com/c/titanic/overview">https://www.kaggle.com/c/titanic/overview</a></p>
+
 </div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Con la sentencia <code>pd.head()</code> podemos ver las primeras 5 lineas de nuestro dataset, es decir, la cabecera. ¿Adivinas qué hará <code>pd.tail()</code> ? Escribelo en la siguiente celda y ejecutalo ;)</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">another_string</span> <span class="o">=</span> <span class="s1">&#39;Hello, &#39;</span> <span class="o">+</span> <span class="n">my_string</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">my_other_string</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">another_string</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello, Altran Part of Capgemini
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Obtenga la longitud de la cadena:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">another_string</span><span class="p">))</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>22
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><code>len</code> es otra función incorporada</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Las cadenas se pueden multiplicar.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span> 
@@ -13999,29 +13383,17 @@ True
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Tipos-de-datos-de-contenedor">Tipos de datos de contenedor<a class="anchor-link" href="#Tipos-de-datos-de-contenedor">&#182;</a></h1><p>Algunos contenedores incorporados son</p>
-<ul>
-<li>Lista y tuplas</li>
-<li>Establecer</li>
-<li>Dict</li>
-</ul>
-<p>Se pueden dividir en mutables o inmutables:</p>
-<ul>
-<li>Inmutables: Tuplas</li>
-<li>Mutable: lista, dict y conjuntos.</li>
-</ul>
-<h2 id="Listas">Listas<a class="anchor-link" href="#Listas">&#182;</a></h2><p>Una <code>lista</code> de Python almacena múltiples elementos, cuyos tipos pueden ser diferentes.</p>
+<p>podemos comprobar qué tipo de variable es <code>df</code></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="s1">&#39;c&#39;</span><span class="p">,</span> <span class="mi">3485</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14034,13 +13406,15 @@ True
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+    <div class="prompt output_prompt">Out[3]:</div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, 3485]
-</pre>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>pandas.core.frame.DataFrame</pre>
 </div>
+
 </div>
 
 </div>
@@ -14050,7 +13424,56 @@ True
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Puede acceder a un elemento en una lista con la siguiente sintaxis:</p>
+<p>Es un pandas dataframe! es el objeto básico de <code>pandas</code>, es una forma de trabajar con tablas dentro de Python.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Obteniendo-informacion-sobre-el-dataset">Obteniendo informacion sobre el dataset<a class="anchor-link" href="#Obteniendo-informacion-sobre-el-dataset">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[4]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(891, 12)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>La propiedad shape del objeto df, nos informa del numero de filas y columnas del dataset. 
+ que (por eso se escribe sin parentesis al final.</p>
 
 </div>
 </div>
@@ -14059,18 +13482,180 @@ True
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="alert alert-block alert-info">
-<b>Note :</b>, el primer elemento de una lista tiene un índice de cero.
+<b>Tip:</b> shape es una propiedad del objeto dataframe, por eso no tiene paréntesis al final. Los métodos en cambio, terminan en (), como veremos a continuación. Pero por ahora no te preocupes de eso.
 </div>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[5]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PassengerId</th>
+      <th>Survived</th>
+      <th>Pclass</th>
+      <th>Age</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+      <th>Fare</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>714.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>446.000000</td>
+      <td>0.383838</td>
+      <td>2.308642</td>
+      <td>29.699118</td>
+      <td>0.523008</td>
+      <td>0.381594</td>
+      <td>32.204208</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>257.353842</td>
+      <td>0.486592</td>
+      <td>0.836071</td>
+      <td>14.526497</td>
+      <td>1.102743</td>
+      <td>0.806057</td>
+      <td>49.693429</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.420000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>223.500000</td>
+      <td>0.000000</td>
+      <td>2.000000</td>
+      <td>20.125000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>7.910400</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>446.000000</td>
+      <td>0.000000</td>
+      <td>3.000000</td>
+      <td>28.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>14.454200</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>668.500000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>38.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>31.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>891.000000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>80.000000</td>
+      <td>8.000000</td>
+      <td>6.000000</td>
+      <td>512.329200</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Si algunas vez tienes dudas de cómo usar un comando, una sentencia, siempre puedes escribir <code>?</code> despues del comando y ejecutar la celda, esto abrirá la documentación.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span>df.describe<span class="o">?</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -14087,8 +13672,25 @@ True
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>c
-a
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 891 entries, 0 to 890
+Data columns (total 12 columns):
+ #   Column       Non-Null Count  Dtype  
+---  ------       --------------  -----  
+ 0   PassengerId  891 non-null    int64  
+ 1   Survived     891 non-null    int64  
+ 2   Pclass       891 non-null    int64  
+ 3   Name         891 non-null    object 
+ 4   Sex          891 non-null    object 
+ 5   Age          714 non-null    float64
+ 6   SibSp        891 non-null    int64  
+ 7   Parch        891 non-null    int64  
+ 8   Ticket       891 non-null    object 
+ 9   Fare         891 non-null    float64
+ 10  Cabin        204 non-null    object 
+ 11  Embarked     889 non-null    object 
+dtypes: float64(2), int64(5), object(5)
+memory usage: 83.7+ KB
 </pre>
 </div>
 </div>
@@ -14100,18 +13702,35 @@ a
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Reasignación de elementos en una lista:</p>
+<p>Este comando nos indican información sobre qué tipo de datos contiene cada una de las columnas. En este caso tenemos integer, float o object.</p>
+<p>Los object es la forma genérica que tiene <code>pandas</code> de decirnos que no sabe descifrar qué tipo de dato es, y la guarda como cadena de texto, un <code>string</code>.</p>
+<p>la columna Non-null nos dice cuantas celdas con contenido hay en cada columna.  Observa que de 891 filas (entries), la columna 11, Embarked, tiene solo 889 datos no nulos. En las columna<code>Age</code> y <code>Cabin</code>, tampoco tenemos 891 registros, sino 714 y 204 respecticamente. ¡La columna cabin está casi vacía!</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Accediendo-a-los-datos">Accediendo a los datos<a class="anchor-link" href="#Accediendo-a-los-datos">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>en <code>pandas</code> tenemos dos formas de acceder a la información de las columnas.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Ai&#39;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#nos dice los nombres de las columnas presentes en el df</span>
+<span class="n">df</span><span class="o">.</span><span class="n">columns</span>
 </pre></div>
 
     </div>
@@ -14124,13 +13743,17 @@ a
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+    <div class="prompt output_prompt">Out[8]:</div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;Ai&#39;, &#39;b&#39;, &#39;c&#39;, 3485]
-</pre>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>Index([&#39;PassengerId&#39;, &#39;Survived&#39;, &#39;Pclass&#39;, &#39;Name&#39;, &#39;Sex&#39;, &#39;Age&#39;, &#39;SibSp&#39;,
+       &#39;Parch&#39;, &#39;Ticket&#39;, &#39;Fare&#39;, &#39;Cabin&#39;, &#39;Embarked&#39;],
+      dtype=&#39;object&#39;)</pre>
 </div>
+
 </div>
 
 </div>
@@ -14140,21 +13763,17 @@ a
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Agregar / eliminar elementos de una lista:</p>
+<p>Si quiero acceder solo a la columna Name, por ejemplo</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Saturdays&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
-
-<span class="n">my_list</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">Name</span>
 </pre></div>
 
     </div>
@@ -14167,14 +13786,26 @@ a
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+    <div class="prompt output_prompt">Out[9]:</div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;Ai&#39;, &#39;b&#39;, &#39;c&#39;, 3485, &#39;Saturdays&#39;]
-[&#39;Ai&#39;, &#39;b&#39;, &#39;c&#39;, 3485]
-</pre>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>0                                Braund, Mr. Owen Harris
+1      Cumings, Mrs. John Bradley (Florence Briggs Th...
+2                                 Heikkinen, Miss. Laina
+3           Futrelle, Mrs. Jacques Heath (Lily May Peel)
+4                               Allen, Mr. William Henry
+                             ...                        
+886                                Montvila, Rev. Juozas
+887                         Graham, Miss. Margaret Edith
+888             Johnston, Miss. Catherine Helen &#34;Carrie&#34;
+889                                Behr, Mr. Karl Howell
+890                                  Dooley, Mr. Patrick
+Name: Name, Length: 891, dtype: object</pre>
 </div>
+
 </div>
 
 </div>
@@ -14184,7 +13815,830 @@ a
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Acceso a múltiples elementos en una lista:</p>
+<p>Tambien puedo acceder de esta forma. Lo vereis mucho.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[10]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>0                                Braund, Mr. Owen Harris
+1      Cumings, Mrs. John Bradley (Florence Briggs Th...
+2                                 Heikkinen, Miss. Laina
+3           Futrelle, Mrs. Jacques Heath (Lily May Peel)
+4                               Allen, Mr. William Henry
+                             ...                        
+886                                Montvila, Rev. Juozas
+887                         Graham, Miss. Margaret Edith
+888             Johnston, Miss. Catherine Helen &#34;Carrie&#34;
+889                                Behr, Mr. Karl Howell
+890                                  Dooley, Mr. Patrick
+Name: Name, Length: 891, dtype: object</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Si quisiera acceder a más de una columna, debemos empacar los nombres de las columnas desealas en una lista</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[[</span><span class="s1">&#39;Name&#39;</span><span class="p">,</span> <span class="s1">&#39;Age&#39;</span><span class="p">]]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[11]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Braund, Mr. Owen Harris</td>
+      <td>22.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Cumings, Mrs. John Bradley (Florence Briggs Th...</td>
+      <td>38.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Heikkinen, Miss. Laina</td>
+      <td>26.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Futrelle, Mrs. Jacques Heath (Lily May Peel)</td>
+      <td>35.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Allen, Mr. William Henry</td>
+      <td>35.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>886</th>
+      <td>Montvila, Rev. Juozas</td>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <th>887</th>
+      <td>Graham, Miss. Margaret Edith</td>
+      <td>19.0</td>
+    </tr>
+    <tr>
+      <th>888</th>
+      <td>Johnston, Miss. Catherine Helen "Carrie"</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>889</th>
+      <td>Behr, Mr. Karl Howell</td>
+      <td>26.0</td>
+    </tr>
+    <tr>
+      <th>890</th>
+      <td>Dooley, Mr. Patrick</td>
+      <td>32.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>891 rows × 2 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Una vez hayamos seleccionado los datos, podemos realizar operaciones sobre ellos, como <code>sum</code>, <code>mean</code>, `max'  entre muchas otras.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="alert alert-block alert-info">
+<b>Tip:</b> Buscar en google "como hacer en pandas tal cosa"  será tu mejor aliado en esta etapa de aprendizaje. Si tienes preguntas, no dudes en usar el foro de la plataforma de EducAltran
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Sacando-informacion-del-dataset">Sacando informacion del dataset<a class="anchor-link" href="#Sacando-informacion-del-dataset">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>La columna Survived nos dice si este pasajero sobrevivió al naufragio (valor 1) o por el contrario falleció (valor 0)</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[12]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PassengerId</th>
+      <th>Survived</th>
+      <th>Pclass</th>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>Age</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+      <th>Ticket</th>
+      <th>Fare</th>
+      <th>Cabin</th>
+      <th>Embarked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Braund, Mr. Owen Harris</td>
+      <td>male</td>
+      <td>22.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>A/5 21171</td>
+      <td>7.2500</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Cumings, Mrs. John Bradley (Florence Briggs Th...</td>
+      <td>female</td>
+      <td>38.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>PC 17599</td>
+      <td>71.2833</td>
+      <td>C85</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>1</td>
+      <td>3</td>
+      <td>Heikkinen, Miss. Laina</td>
+      <td>female</td>
+      <td>26.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>STON/O2. 3101282</td>
+      <td>7.9250</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Futrelle, Mrs. Jacques Heath (Lily May Peel)</td>
+      <td>female</td>
+      <td>35.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>113803</td>
+      <td>53.1000</td>
+      <td>C123</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Allen, Mr. William Henry</td>
+      <td>male</td>
+      <td>35.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>373450</td>
+      <td>8.0500</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>886</th>
+      <td>887</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Montvila, Rev. Juozas</td>
+      <td>male</td>
+      <td>27.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>211536</td>
+      <td>13.0000</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>887</th>
+      <td>888</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Graham, Miss. Margaret Edith</td>
+      <td>female</td>
+      <td>19.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>112053</td>
+      <td>30.0000</td>
+      <td>B42</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>888</th>
+      <td>889</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Johnston, Miss. Catherine Helen "Carrie"</td>
+      <td>female</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>2</td>
+      <td>W./C. 6607</td>
+      <td>23.4500</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>889</th>
+      <td>890</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Behr, Mr. Karl Howell</td>
+      <td>male</td>
+      <td>26.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>111369</td>
+      <td>30.0000</td>
+      <td>C148</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <th>890</th>
+      <td>891</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Dooley, Mr. Patrick</td>
+      <td>male</td>
+      <td>32.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>370376</td>
+      <td>7.7500</td>
+      <td>NaN</td>
+      <td>Q</td>
+    </tr>
+  </tbody>
+</table>
+<p>891 rows × 12 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Survived&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[13]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>0    549
+1    342
+Name: Survived, dtype: int64</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>De esta forma hemos seleccionado la columna Survived, y le hemos pedido que nos devuelva cuantos valores hay contenidos. Hay valores 0 y 1. Hay 549 filas con valore 0, y 342 con valor 1 . Es decir, sobrevivieron 342 personas, y fallecieron 549.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Para terminar, vamos a ver si la expresión "¡Mujeres y niños primero!" fue una realidad. ¿Sobrevivieron más mujeres que hombres?</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Ahora podemos realizar nuestro primer filtro!</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_females</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Sex&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;female&#39;</span><span class="p">]</span>
+<span class="n">df_females</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[14]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PassengerId</th>
+      <th>Survived</th>
+      <th>Pclass</th>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>Age</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+      <th>Ticket</th>
+      <th>Fare</th>
+      <th>Cabin</th>
+      <th>Embarked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Cumings, Mrs. John Bradley (Florence Briggs Th...</td>
+      <td>female</td>
+      <td>38.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>PC 17599</td>
+      <td>71.2833</td>
+      <td>C85</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>1</td>
+      <td>3</td>
+      <td>Heikkinen, Miss. Laina</td>
+      <td>female</td>
+      <td>26.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>STON/O2. 3101282</td>
+      <td>7.9250</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Futrelle, Mrs. Jacques Heath (Lily May Peel)</td>
+      <td>female</td>
+      <td>35.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>113803</td>
+      <td>53.1000</td>
+      <td>C123</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>9</td>
+      <td>1</td>
+      <td>3</td>
+      <td>Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)</td>
+      <td>female</td>
+      <td>27.0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>347742</td>
+      <td>11.1333</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Nasser, Mrs. Nicholas (Adele Achem)</td>
+      <td>female</td>
+      <td>14.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>237736</td>
+      <td>30.0708</td>
+      <td>NaN</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>880</th>
+      <td>881</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Shelley, Mrs. William (Imanita Parrish Hall)</td>
+      <td>female</td>
+      <td>25.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>230433</td>
+      <td>26.0000</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>882</th>
+      <td>883</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Dahlberg, Miss. Gerda Ulrika</td>
+      <td>female</td>
+      <td>22.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>7552</td>
+      <td>10.5167</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>885</th>
+      <td>886</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Rice, Mrs. William (Margaret Norton)</td>
+      <td>female</td>
+      <td>39.0</td>
+      <td>0</td>
+      <td>5</td>
+      <td>382652</td>
+      <td>29.1250</td>
+      <td>NaN</td>
+      <td>Q</td>
+    </tr>
+    <tr>
+      <th>887</th>
+      <td>888</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Graham, Miss. Margaret Edith</td>
+      <td>female</td>
+      <td>19.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>112053</td>
+      <td>30.0000</td>
+      <td>B42</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>888</th>
+      <td>889</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Johnston, Miss. Catherine Helen "Carrie"</td>
+      <td>female</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>2</td>
+      <td>W./C. 6607</td>
+      <td>23.4500</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+  </tbody>
+</table>
+<p>314 rows × 12 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>El dataset df_females solo contiene las filas de mujeres.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_females</span><span class="p">[</span><span class="s1">&#39;Survived&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[15]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>233</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>De las 314 mujeres que tenemos información, 233 sobrevivieron.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Para ver cuantos hombres y mujeres tenemos en el dataset</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Sex&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[21]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>male      577
+female    314
+Name: Sex, dtype: int64</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Podemos hacer este proceso en una sola línea, para los hombres</p>
 
 </div>
 </div>
@@ -14194,9 +14648,7 @@ a
 <div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">])</span> <span class="c1"># Access elements in index 0, 1 and 2</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">[</span><span class="mi">2</span><span class="p">:])</span> <span class="c1"># Access elements from index 2 to the end</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">[:</span><span class="mi">2</span><span class="p">])</span> <span class="c1"># Access elements from the beginning to index 2</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Sex&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;male&#39;</span><span class="p">][</span><span class="s1">&#39;Survived&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -14209,131 +14661,13 @@ a
 
 <div class="output_area">
 
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;delta&#39;, &#39;b&#39;]
-[&#39;c&#39;, 3485]
-[&#39;delta&#39;, &#39;b&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Tuplas">Tuplas<a class="anchor-link" href="#Tuplas">&#182;</a></h2><p>Una tupla es una secuencia de objetos Python inmutables. Las tuplas son secuencias, al igual que las listas. Las diferencias entre las tuplas y las listas son que las tuplas no se pueden cambiar a diferencia de las listas y las tuplas usan paréntesis, mientras que las listas usan corchetes.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>(2, &#39;a&#39;)
-2
-&lt;class &#39;tuple&#39;&gt;
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Para acceder a todas las propiedades y métodos de un objeto, use la función incorporada <code>dir</code>.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">dir</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[63]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&#39;__add__&#39;,
- &#39;__class__&#39;,
- &#39;__contains__&#39;,
- &#39;__delattr__&#39;,
- &#39;__dir__&#39;,
- &#39;__doc__&#39;,
- &#39;__eq__&#39;,
- &#39;__format__&#39;,
- &#39;__ge__&#39;,
- &#39;__getattribute__&#39;,
- &#39;__getitem__&#39;,
- &#39;__getnewargs__&#39;,
- &#39;__gt__&#39;,
- &#39;__hash__&#39;,
- &#39;__init__&#39;,
- &#39;__init_subclass__&#39;,
- &#39;__iter__&#39;,
- &#39;__le__&#39;,
- &#39;__len__&#39;,
- &#39;__lt__&#39;,
- &#39;__mul__&#39;,
- &#39;__ne__&#39;,
- &#39;__new__&#39;,
- &#39;__reduce__&#39;,
- &#39;__reduce_ex__&#39;,
- &#39;__repr__&#39;,
- &#39;__rmul__&#39;,
- &#39;__setattr__&#39;,
- &#39;__sizeof__&#39;,
- &#39;__str__&#39;,
- &#39;__subclasshook__&#39;,
- &#39;count&#39;,
- &#39;index&#39;]</pre>
+<pre>109</pre>
 </div>
 
 </div>
@@ -14345,60 +14679,29 @@ a
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Diccionarios">Diccionarios<a class="anchor-link" href="#Diccionarios">&#182;</a></h2><p>Los diccionarios contienen pares clave / valor y son útiles para almacenar información.</p>
+<p>De 577 los hombres que tenemos información, solo 109 sobrevivieron</p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_dict</span> <span class="o">=</span> <span class="p">{</span> <span class="s1">&#39;key_one&#39;</span><span class="p">:</span> <span class="s1">&#39;Ai&#39;</span><span class="p">,</span> <span class="s1">&#39;key_two&#39;</span><span class="p">:</span> <span class="s1">&#39;Saturdays&#39;</span> <span class="p">}</span>
-<span class="n">my_dict</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[65]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>{&#39;key_one&#39;: &#39;Ai&#39;, &#39;key_two&#39;: &#39;Saturdays&#39;}</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Acceda a un valor de un diccionario mediante una clave:</p>
+<p>Un simple calculo nos dirá que el ratio de supervivencia para hombres y mujeres:</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">my_dict</span><span class="p">[</span><span class="s1">&#39;key_one&#39;</span><span class="p">])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">my_dict</span><span class="p">[</span><span class="s1">&#39;key_two&#39;</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">rat_men</span> <span class="o">=</span> <span class="mi">107</span><span class="o">/</span><span class="mi">577</span>
+<span class="n">rat_women</span> <span class="o">=</span> <span class="mi">233</span><span class="o">/</span><span class="mi">314</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39; Los hombres tenian una prob de </span><span class="si">{</span><span class="n">rat_men</span><span class="si">}</span><span class="s1"> de sobrevivir&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Mientras que la de las mujeres fue de  </span><span class="si">{</span><span class="n">rat_women</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14415,8 +14718,8 @@ a
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Ai
-Saturdays
+<pre> Los hombres tenian una prob de 0.1854419410745234 de sobrevivir
+Mientras que la de las mujeres fue de  0.7420382165605095
 </pre>
 </div>
 </div>
@@ -14428,20 +14731,194 @@ Saturdays
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Recorriendo los valores de un diccionario:</p>
-<div class="alert alert-block alert-info">
-<b>Note :</b> consulte las siguientes secciones a continuación para obtener información sobre los bucles.
+<h2 id="(opcional)-Para-ampliar-conocimientos">(opcional) Para ampliar conocimientos<a class="anchor-link" href="#(opcional)-Para-ampliar-conocimientos">&#182;</a></h2>
 </div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Incluso podriamos crear una tabla pivote, pero no te preocupes ahora por esto, te lo mostramos para que conozcas las posibilidades</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">my_dict</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The key is &quot;</span> <span class="o">+</span> <span class="n">key</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">crosstab</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Sex&#39;</span><span class="p">],</span> <span class="n">columns</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Survived&#39;</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[17]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Survived</th>
+      <th>0</th>
+      <th>1</th>
+    </tr>
+    <tr>
+      <th>Sex</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>female</th>
+      <td>81</td>
+      <td>233</td>
+    </tr>
+    <tr>
+      <th>male</th>
+      <td>468</td>
+      <td>109</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Sex&#39;</span><span class="p">,</span><span class="s1">&#39;Pclass&#39;</span><span class="p">],</span> <span class="n">values</span> <span class="o">=</span> <span class="s1">&#39;Survived&#39;</span><span class="p">,</span> <span class="n">aggfunc</span> <span class="o">=</span> <span class="s1">&#39;sum&#39;</span> <span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[18]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>Survived</th>
+    </tr>
+    <tr>
+      <th>Sex</th>
+      <th>Pclass</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="3" valign="top">female</th>
+      <th>1</th>
+      <td>91</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>72</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">male</th>
+      <th>1</th>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>47</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Incluso desde pandas podemos crear gráficos</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="n">g</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">catplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">&quot;Survived&quot;</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="s2">&quot;Sex&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;count&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14457,44 +14934,14 @@ Saturdays
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>The key is key_one
-The key is key_two
-</pre>
-</div>
-</div>
 
-</div>
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+"
+>
 </div>
 
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">my_dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The key is &quot;</span> <span class="o">+</span> <span class="n">key</span> <span class="o">+</span> <span class="s2">&quot;, and the value is &quot;</span> <span class="o">+</span> <span class="n">value</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>The key is key_one, and the value is Ai
-The key is key_two, and the value is Saturdays
-</pre>
-</div>
 </div>
 
 </div>
@@ -14504,452 +14951,10 @@ The key is key_two, and the value is Saturdays
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Conjuntos">Conjuntos<a class="anchor-link" href="#Conjuntos">&#182;</a></h2><p>Los conjuntos son similares a las listas, pero solo pueden contener valores únicos.</p>
+<p>Si quieres profundizar más, te recomendamos encarecidamente el tutorial de <a href="https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html">10 minutes to pandas</a></p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_set</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;hello&#39;</span><span class="p">}</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">my_set</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>{&#39;hello&#39;, 1, 2, 3}
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Al definir un conjunto con el mismo valor presente varias veces, solo se agregará un elemento al conjunto.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="3.-Funciones">3. Funciones<a class="anchor-link" href="#3.-Funciones">&#182;</a></h1><p>Una función es un bloque de código reutilizable que realiza una determinada acción. Una vez que haya definido una función, ¡puede usarla en cualquier parte de su código!</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Definiendo una función:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">am_i_happy</span><span class="p">(</span><span class="n">happiness_level</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot; Function that prints if I&#39;m happy or not.&quot;&quot;&quot;</span>
-    
-    <span class="k">if</span> <span class="n">happiness_level</span> <span class="o">&gt;=</span> <span class="mi">10</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&quot;I&#39;m very happy.&quot;</span>
-    <span class="k">elif</span> <span class="n">happiness_level</span> <span class="o">&gt;=</span> <span class="mi">5</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&quot;I&#39;m happy.&quot;</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&quot;I am not happy.&quot;</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Llamar a una función:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[74]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">am_i_happy</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>I am not happy.
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[75]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">am_i_happy</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>I&#39;m happy.
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Flujo-de-control">Flujo de control<a class="anchor-link" href="#Flujo-de-control">&#182;</a></h1><p>Hay varias oraciones de control de flujo. Los fundamentos son:</p>
-<ul>
-<li>Declaración if / else:</li>
-<li>bucles
-    <em>Para bucles</em> Lista de comprensión
-    * Mientras bucles</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="If/Else">If/Else<a class="anchor-link" href="#If/Else">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sleepy</span> <span class="o">=</span> <span class="kc">True</span>
-<span class="n">hungry</span> <span class="o">=</span> <span class="kc">False</span>
-
-<span class="k">if</span> <span class="n">sleepy</span> <span class="ow">and</span> <span class="n">hungry</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Eat a snack and take a nap.&quot;</span><span class="p">)</span>
-<span class="k">elif</span> <span class="n">sleepy</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">hungry</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Take a nap&quot;</span><span class="p">)</span>
-<span class="k">elif</span> <span class="n">hungry</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">sleepy</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Eat a snack&quot;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Go on with your day&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Take a nap
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Bucles">Bucles<a class="anchor-link" href="#Bucles">&#182;</a></h2><p>Iterar sobre objetos iterables, como cadenas, matrices, rango, lista, tuplas, conjuntos, dictados.</p>
-<h3 id="bucles-'while'">bucles 'while'<a class="anchor-link" href="#bucles-'while'">&#182;</a></h3><p>Mientras que los bucles se ejecutan hasta que se alcanza una condición de salida.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[78]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">while</span> <span class="p">(</span><span class="n">counter</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">):</span> <span class="c1"># this is the exit condition</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You have counted to&quot;</span><span class="p">,</span> <span class="n">counter</span><span class="p">)</span>
-    <span class="n">counter</span> <span class="o">=</span> <span class="n">counter</span> <span class="o">+</span> <span class="mi">1</span> <span class="c1"># Increment the counter</span>
-    
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You&#39;re finished counting.&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>You have counted to 0
-You have counted to 1
-You have counted to 2
-You have counted to 3
-You have counted to 4
-You have counted to 5
-You have counted to 6
-You have counted to 7
-You have counted to 8
-You have counted to 9
-You&#39;re finished counting.
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="bucles-'for'">bucles 'for'<a class="anchor-link" href="#bucles-'for'">&#182;</a></h3><p>Recorrer una lista:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cool_animals</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;cat&#39;</span><span class="p">,</span> <span class="s1">&#39;dog&#39;</span><span class="p">,</span> <span class="s1">&#39;lion&#39;</span><span class="p">,</span> <span class="s1">&#39;bear&#39;</span><span class="p">]</span>
-<span class="k">for</span> <span class="n">animal</span> <span class="ow">in</span> <span class="n">cool_animals</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">animal</span> <span class="o">+</span> <span class="s2">&quot;s are cool&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>cats are cool
-dogs are cool
-lions are cool
-bears are cool
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Loop over a dict:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[80]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">animal_sounds</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s1">&#39;dog&#39;</span><span class="p">:</span> <span class="s1">&#39;bark&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;cat&#39;</span><span class="p">:</span> <span class="s1">&#39;meow&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;pig&#39;</span><span class="p">:</span> <span class="s1">&#39;oink&#39;</span>
-<span class="p">}</span>
-
-<span class="k">for</span> <span class="n">animal</span><span class="p">,</span> <span class="n">sound</span> <span class="ow">in</span> <span class="n">animal_sounds</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The &quot;</span> <span class="o">+</span> <span class="n">animal</span> <span class="o">+</span> <span class="s2">&quot; says &quot;</span> <span class="o">+</span> <span class="n">sound</span> <span class="o">+</span> <span class="s2">&quot;!&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>The dog says bark!
-The cat says meow!
-The pig says oink!
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Lista-/-comprensi&#243;n-dict">Lista / comprensi&#243;n dict<a class="anchor-link" href="#Lista-/-comprensi&#243;n-dict">&#182;</a></h3><p>Otra sintaxis para usar <code>for-loops</code> en python se llama comprensión de lista. Son mucho
-más legible y ampliamente utilizado.</p>
-<p>Este sintax devuelve una <code>lista</code>.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[81]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cool_animals</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;cat&#39;</span><span class="p">,</span> <span class="s1">&#39;dog&#39;</span><span class="p">,</span> <span class="s1">&#39;lion&#39;</span><span class="p">,</span> <span class="s1">&#39;bear&#39;</span><span class="p">]</span>
-<span class="n">text</span> <span class="o">=</span> <span class="p">[</span><span class="n">animal</span> <span class="o">+</span> <span class="s2">&quot;s are cool&quot;</span> <span class="k">for</span> <span class="n">animal</span> <span class="ow">in</span> <span class="n">cool_animals</span><span class="p">]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[82]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;cats are cool&#39;, &#39;dogs are cool&#39;, &#39;lions are cool&#39;, &#39;bears are cool&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[84]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Applause&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Applause
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
     </div>
   </div>
