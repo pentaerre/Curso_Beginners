@@ -1,0 +1,31 @@
+El ejercicio es el siguiente. Para evitar dificultad y respuestas ambiguas se va a guiar el ejercicio con que se espera.
+Además habrá pistas de por donde se espera resolver la actividad.
+
+El data set son dos csv con información y datos sobre gente que muere por infarto en ciudad y en entornos rurales. Vamos a estudiar estos datos y a intentar entender que está sucediendo.
+
+python OS:
+
+1. Leer todos los archivos csv de la carpeta (1 for utilizado, librerias y metodos usados: os.lisdir, os.isfile, os.join)
+
+Data health:
+
+2. Unir los csv (1 for utilizado, librerias y metodos usados: pandas concat)
+
+------------------------------------------
+De aqui en adelante se han utilizado 0 for.
+
+
+3. Instrucción para observar los datos, y parametros estadisticos de estos (librerias y metodos usados, pandas describe, pandas head)
+4. Hay valores vacios?. Identificarlos como nan (librerias y metodos usados, np.nan y pandas fillna)
+5. Hay personas que se han metido en mas de una ocasión por error, limpiar el dataset (librerias y metodos usados, pandas set_index y pandas duplicated)
+
+
+Data generation
+
+6. Se intenta crear una "edad real" la cual se sabe que: edad_real = edad*(1+0.01*bmi) + hypertension*3. Para ello hay que crear una nueva columna llamada "edad_real" y aplicar esta ecuacion (metodos utilizados pandas apply python lambda)
+
+Representacion
+
+7. Grafico circular de infarto entre hombres y mujeres (metodos y librerias: matplotlib pie, pandas count)
+8. Grafico de barras de infarto por ciudad/pueblo (metodos y librerias: matplotlib bar, pandas count)
+9. Correlación y guardar en CSV, HDF5, EXCEL y database (pandas corr)
