@@ -16,7 +16,7 @@ De aqui en adelante se han utilizado 0 for.
 
 
 3. Instrucción para observar los datos, y parametros estadisticos de estos (librerias y metodos usados, pandas describe, pandas head)
-4. Hay valores vacios?. Identificarlos como nan (librerias y metodos usados, np.nan y pandas fillna)
+4. Hay valores vacios?. Identificarlos como nan (librerias y metodos usados, pandas replace)
 5. Hay personas que se han metido en mas de una ocasión por error, limpiar el dataset (librerias y metodos usados, pandas set_index y pandas duplicated)
 
 
@@ -28,4 +28,4 @@ Representacion
 
 7. Grafico circular de infarto entre hombres y mujeres (metodos y librerias: matplotlib pie, pandas count)
 8. Grafico de barras de infarto por ciudad/pueblo (metodos y librerias: matplotlib bar, pandas count)
-9. Correlación y guardar en CSV, HDF5, EXCEL y database (pandas corr)
+9. Correlación y guardar en CSV, HDF5, EXCEL en una carpeta nueva llamada output (pandas corr, os mkdir)
